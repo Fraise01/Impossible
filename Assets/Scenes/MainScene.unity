@@ -5788,7 +5788,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1208706617}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.027555456, y: -0.22763547, z: -0.0064444393, w: 0.97333515}
+  m_LocalRotation: {x: -0.0055566183, y: -0.21676265, z: -0.0012338228, w: 0.97620773}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -11609,7 +11609,7 @@ MonoBehaviour:
   m_Waypoints:
   - position: {x: 0, y: 0, z: -5}
     roll: 0
-  - position: {x: -246.02303, y: 14.318497, z: -9.478264}
+  - position: {x: -233.99895, y: 14.318497, z: -9.478264}
     roll: 0
 --- !u!4 &1793612205
 Transform:
@@ -11713,8 +11713,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1942061966}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.028298, y: -0.008443514, z: -0.0002390388, w: 0.9995639}
-  m_LocalPosition: {x: 25.599998, y: 47.1, z: -91.2}
+  m_LocalRotation: {x: -0.0056919307, y: 0.00279467, z: 0.000015907388, w: 0.9999799}
+  m_LocalPosition: {x: 21.356407, y: 60.668266, z: 130.53845}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
