@@ -6120,7 +6120,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1208706617}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.02755543, y: -0.2276355, z: -0.006444434, w: 0.97333515}
+  m_LocalRotation: {x: -0.027555449, y: -0.22763547, z: -0.0064444374, w: 0.97333515}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -6205,6 +6205,11 @@ PrefabInstance:
       propertyPath: m_RenderMode
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 264554385525308330, guid: c9145ae90090ba2419b8317bbef91369,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 26b488b15cc989641bef01583debf31a, type: 2}
     - target: {fileID: 2140768787576840800, guid: c9145ae90090ba2419b8317bbef91369,
         type: 3}
       propertyPath: m_Name
@@ -6217,8 +6222,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3715758868935877361, guid: c9145ae90090ba2419b8317bbef91369,
         type: 3}
+      propertyPath: RotationModule.enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3715758868935877361, guid: c9145ae90090ba2419b8317bbef91369,
+        type: 3}
       propertyPath: VelocityModule.enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3715758868935877361, guid: c9145ae90090ba2419b8317bbef91369,
+        type: 3}
+      propertyPath: VelocityModule.x.scalar
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 3715758868935877361, guid: c9145ae90090ba2419b8317bbef91369,
         type: 3}
@@ -6227,8 +6242,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3715758868935877361, guid: c9145ae90090ba2419b8317bbef91369,
         type: 3}
+      propertyPath: RotationModule.curve.scalar
+      value: 0.7853981
+      objectReference: {fileID: 0}
+    - target: {fileID: 3715758868935877361, guid: c9145ae90090ba2419b8317bbef91369,
+        type: 3}
       propertyPath: RotationBySpeedModule.enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3715758868935877361, guid: c9145ae90090ba2419b8317bbef91369,
         type: 3}
@@ -6238,12 +6258,32 @@ PrefabInstance:
     - target: {fileID: 3715758868935877361, guid: c9145ae90090ba2419b8317bbef91369,
         type: 3}
       propertyPath: InitialModule.startSize.minScalar
-      value: 2
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3715758868935877361, guid: c9145ae90090ba2419b8317bbef91369,
         type: 3}
       propertyPath: InitialModule.startRotation.scalar
-      value: 6.283185
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3715758868935877361, guid: c9145ae90090ba2419b8317bbef91369,
+        type: 3}
+      propertyPath: RotationBySpeedModule.curve.scalar
+      value: 0.17453292
+      objectReference: {fileID: 0}
+    - target: {fileID: 3715758868935877361, guid: c9145ae90090ba2419b8317bbef91369,
+        type: 3}
+      propertyPath: InitialModule.startSize.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3715758868935877361, guid: c9145ae90090ba2419b8317bbef91369,
+        type: 3}
+      propertyPath: InitialModule.startSizeY.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3715758868935877361, guid: c9145ae90090ba2419b8317bbef91369,
+        type: 3}
+      propertyPath: InitialModule.startSizeZ.minMaxState
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3715758868935877361, guid: c9145ae90090ba2419b8317bbef91369,
         type: 3}
@@ -6252,18 +6292,48 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3715758868935877361, guid: c9145ae90090ba2419b8317bbef91369,
         type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.atime2
+      value: 50731
+      objectReference: {fileID: 0}
+    - target: {fileID: 3715758868935877361, guid: c9145ae90090ba2419b8317bbef91369,
+        type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.atime3
+      value: 65535
+      objectReference: {fileID: 0}
+    - target: {fileID: 3715758868935877361, guid: c9145ae90090ba2419b8317bbef91369,
+        type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key0.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3715758868935877361, guid: c9145ae90090ba2419b8317bbef91369,
+        type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key3.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3715758868935877361, guid: c9145ae90090ba2419b8317bbef91369,
+        type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key4.a
+      value: 0.39607844
+      objectReference: {fileID: 0}
+    - target: {fileID: 3715758868935877361, guid: c9145ae90090ba2419b8317bbef91369,
+        type: 3}
       propertyPath: InitialModule.startRotation.minMaxState
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3715758868935877361, guid: c9145ae90090ba2419b8317bbef91369,
         type: 3}
       propertyPath: InitialModule.startRotationX.minMaxState
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3715758868935877361, guid: c9145ae90090ba2419b8317bbef91369,
         type: 3}
       propertyPath: InitialModule.startRotationY.minMaxState
-      value: 3
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3715758868935877361, guid: c9145ae90090ba2419b8317bbef91369,
+        type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.m_NumAlphaKeys
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6980509721587062253, guid: c9145ae90090ba2419b8317bbef91369,
         type: 3}
@@ -12568,7 +12638,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1942061966}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.028297974, y: -0.008443553, z: -0.0002390397, w: 0.9995639}
+  m_LocalRotation: {x: -0.028297992, y: -0.008443527, z: -0.0002390391, w: 0.9995639}
   m_LocalPosition: {x: 25.599998, y: 47.1, z: -91.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
