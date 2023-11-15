@@ -665,7 +665,7 @@ ParticleSystem:
     serializedVersion: 6
     enabled: 1
     type: 4
-    angle: 4.71
+    angle: 2.45
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
     radiusThickness: 1
@@ -751,7 +751,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 20.9
+      value: 8.6
       mode: 0
       spread: 0
       speed:
@@ -1485,7 +1485,7 @@ ParticleSystem:
   UVModule:
     serializedVersion: 2
     enabled: 1
-    mode: 0
+    mode: 1
     timeMode: 0
     fps: 30
     frameOverTime:
@@ -3614,7 +3614,7 @@ ParticleSystem:
     curve:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.2617994
+      scalar: 0.17453292
       minScalar: 0.7853982
       maxCurve:
         serializedVersion: 2
@@ -4893,7 +4893,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1416778ad150b4a45a81e50ff2f0e252, type: 2}
+  - {fileID: 2100000, guid: 26b488b15cc989641bef01583debf31a, type: 2}
   - {fileID: 2100000, guid: f8680f022b9d922409b55a59ece812cd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
