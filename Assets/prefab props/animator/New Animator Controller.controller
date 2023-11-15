@@ -22,6 +22,20 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
+--- !u!1109 &349488169729932935
+AnimatorTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions: []
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: 8807474360170357705}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 1
 --- !u!1107 &2288885747411914591
 AnimatorStateMachine:
   serializedVersion: 6
@@ -32,26 +46,27 @@ AnimatorStateMachine:
   m_Name: Base Layer
   m_ChildStates:
   - serializedVersion: 1
-    m_State: {fileID: 3653699878525803876}
-    m_Position: {x: 393.9394, y: 139.69696, z: 0}
+    m_State: {fileID: 8807474360170357705}
+    m_Position: {x: 428.9394, y: 204.69696, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
-  m_EntryTransitions: []
+  m_EntryTransitions:
+  - {fileID: 349488169729932935}
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 50, y: 20, z: 0}
-  m_EntryPosition: {x: 50, y: 120, z: 0}
+  m_EntryPosition: {x: 30, y: 120, z: 0}
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
-  m_DefaultState: {fileID: 3653699878525803876}
---- !u!1102 &3653699878525803876
+  m_DefaultState: {fileID: 8807474360170357705}
+--- !u!1102 &8807474360170357705
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Armature|ArmatureAction
+  m_Name: Stretsh Corde
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -64,8 +79,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 4781951162920444690, guid: 90b95fb37c3293644bc5724e7063a456,
-    type: 3}
+  m_Motion: {fileID: 7400000, guid: 282a320defa4e0849aca460edecd263a, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
