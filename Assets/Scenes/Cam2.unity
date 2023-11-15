@@ -12093,6 +12093,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4703579853058381138, guid: 284f932886ce1f142b3b718b03395c17,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.31
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12432,7 +12437,7 @@ MonoBehaviour:
     width: 0.2
   m_Looped: 0
   m_Waypoints:
-  - position: {x: 0, y: 0, z: -5}
+  - position: {x: -46.80811, y: 0, z: -5.0000014}
     roll: 0
   - position: {x: -81.77666, y: -0.18829346, z: -6.1814284}
     roll: 0
@@ -12622,7 +12627,7 @@ Transform:
   m_GameObject: {fileID: 1942061966}
   serializedVersion: 2
   m_LocalRotation: {x: 0.032488238, y: -0.024898916, z: 0.00080960063, w: 0.9991616}
-  m_LocalPosition: {x: 22.5, y: 66.1, z: 68.9}
+  m_LocalPosition: {x: 22.500002, y: 66.1, z: 115.708115}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
